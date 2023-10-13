@@ -44,14 +44,6 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <CollectionCard
-        id={12}
-        name={'Hulk Punk'}
-        traits={[{ value: 5 }]}
-        image={
-          'https://i.seadn.io/s/raw/files/ed6802b226c7b496d1f414e6b3f7dc5e.jpg?auto=format&dpr=1&w=384'
-        }
-      />
       <Punklist punkListData={punkListData} />
     </div>
   );
